@@ -1,0 +1,23 @@
+.products {
+  display: inline-flex;
+  grid-template-columns: 1fr 1fr;
+}
+.products img {
+  width: 60%;
+  height: 60%;
+  margin-bottom: 10px;
+}
+.product {
+  padding: 70px;
+}
+
+button {
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+}
+header {
+  background-color: pink;
+  height: 100px;
+  padding-top: 20px;
+}

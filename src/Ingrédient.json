@@ -1,0 +1,374 @@
+{
+  "Fruits": [
+    {
+      "Grenade": {
+        "size": 1
+      },
+      "avocate": {
+        "size": 1
+      },
+
+      "banane": {
+        "size": 1,
+        "default": "large",
+        "types": {
+          "large": {},
+          "medium": {}
+        }
+      },
+      "clementines": {
+        "size": 1
+      },
+      "pomme": {
+        "size": 1,
+        "types": {
+          "rouge": {},
+          "vert": {}
+        }
+      },
+      "abricot": {
+        "size": 1
+      },
+      "pêche": {
+        "size": 1
+      },
+      "poire": {
+        "size": 1
+      },
+      "mangue": {
+        "size": 1
+      },
+      "ananas": {
+        "size": 1
+      },
+
+      "kiwi": {
+        "size": 1
+      },
+      "figue": {
+        "size": 1
+      },
+      "framboise": {
+        "size": 1
+      },
+      "fraise": {
+        "size": 1
+      },
+      "groseille": {
+        "size": 5,
+        "unit": "g"
+      },
+      "orange": {
+        "size": 1
+      },
+      "pastèque": {
+        "size": 1
+      },
+      " myrtille": {
+        "size": 10,
+        "unit": "g"
+      },
+      "cerise": {
+        "size": 4,
+        "unit": "g"
+      },
+      "pamplemousse": {
+        "size": 1
+      }
+    }
+  ],
+
+  "pâtes": [
+    {
+      "couscous": {
+        "size": 500,
+        "unit": "g"
+      },
+      "Cannellonis": {
+        "size": 500,
+        "unit": "g"
+      },
+      "Cheveux d'ange": {
+        "size": 500,
+        "unit": "g"
+      },
+      "Coquilles": {
+        "size": 500,
+        "unit": "g"
+      },
+      "spagetti": {
+        "size": 500,
+        "unit": "g"
+      },
+      "Lasagnes": {
+        "size": 500,
+        "unit": "g"
+      }
+    }
+  ],
+  "légumes": [
+    {
+      "oignons": {
+        "size": 1,
+        "types": {
+          "red": {},
+          "white": {}
+        },
+        "default": "red"
+      },
+      "tomates": {
+        "unit": "g",
+        "types": {
+          "normal": {
+            "unit": null,
+            "size": 1
+          },
+          "puree": {
+            "size": 200
+          },
+          "chopped": {
+            "size": 400
+          },
+          "sundried": {
+            "size": 300
+          }
+        },
+        "default": "normal"
+      },
+      "pomme de terre": {
+        "unit": "g",
+        "size": 2
+      },
+      "brocoli": {
+        "unit": "g",
+        "size": 200
+      },
+      "Ail": {
+        "size": 1,
+        "unit": "bulb",
+        "conversions": {
+          "cloves": 9
+        }
+      },
+      "feuilles de kombu": {
+        "size": 8,
+        "unit": "sheet"
+      },
+      "Citronnelle": {
+        "size": 2
+      },
+      "Salade": {
+        "size": 260,
+        "unit": "g"
+      },
+      "citron vert": {
+        "size": 1
+      },
+      "feuilles de lime": {
+        "size": 1
+      },
+      "asperges": {
+        "size": 100,
+        "unit": "g"
+      },
+
+      "basilic": {
+        "unit": "g",
+        "types": {
+          "dried": {
+            "size": 10
+          },
+          "fresh": {
+            "size": 31
+          }
+        },
+        "default": "dried"
+      },
+      "Chili": {
+        "size": 6,
+        "types": {
+          "crushed": {
+            "size": 28,
+            "unit": "g"
+          },
+          "red": {},
+          "green": {},
+          "habanero": {},
+          "scotch-bonnet": {}
+        },
+        "default": "red"
+      },
+      "échalote": {
+        "size": 1,
+        "types": {
+          "echalion": {},
+          "shallot": {}
+        },
+        "default": "shallot"
+      },
+      "champignons": {
+        "unit": "g",
+        "size": 300,
+        "types": {
+          "chestnut": {},
+          "portobello": {}
+        },
+        "default": "chestnut"
+      },
+      "shiitake": {
+        "unit": "g",
+        "size": 300,
+        "types": {
+          "dried": {},
+          "fresh": {}
+        },
+        "default": "fresh"
+      }
+    }
+  ],
+  "sel": {
+    "size": 20,
+    "unit": "g"
+  },
+
+  "levure": {
+    "size": 170,
+    "unit": "g"
+  },
+
+  "beurre": {
+    "size": 250,
+    "unit": "g"
+  },
+
+  "chocolat": {
+    "size": 100,
+    "default": "70%",
+    "types": {
+      "50%": {},
+      "60%": {},
+      "70%": {},
+      "80%": {}
+    },
+    "unit": "g"
+  },
+
+  "lait de coco": {
+    "size": 400,
+    "unit": "ml"
+  },
+  "poudre de café": {
+    "unit": "g",
+    "size": 100,
+    "types": {
+      "espresso": {}
+    },
+    "default": "espresso"
+  },
+
+  "creme-fraiche": {
+    "size": 400,
+    "unit": "ml"
+  },
+
+  "œufs": {
+    "size": 6,
+    "default": "large",
+    "types": {
+      "large": {},
+      "medium": {}
+    }
+  },
+  "farine": {
+    "size": 500,
+    "default": "plain",
+    "types": {
+      "plain": {},
+      "bread": {}
+    },
+    "unit": "g"
+  },
+
+  "jus de citron vert": {
+    "unit": "ml"
+  },
+  "marinade": {
+    "unit": "g",
+    "types": {
+      "honey-mustard": {
+        "size": 270
+      }
+    },
+    "default": "honey-mustard"
+  },
+
+  "Origan": {
+    "size": 7,
+    "unit": "g"
+  },
+  "poivre": {
+    "unit": "g",
+    "size": 30,
+    "types": {
+      "white": {},
+      "coarse-ground": {},
+      "ground": {},
+      "cayenne": {}
+    },
+    "default": "coarse-ground"
+  },
+
+  "crevettes": {
+    "unit": "g",
+    "size": 250
+  },
+  "Saumon": {
+    "size": 200,
+    "unit": "g"
+  },
+
+  "sucre": {
+    "size": 500,
+    "unit": "g",
+    "types": {
+      "granulated": {},
+      "dark-muscavado": {},
+      "dark-soft-brown": {},
+      "brown": {},
+      "demerara": {}
+    },
+    "default": "granulated"
+  },
+  "vanille": {
+    "types": {
+      "extract": {
+        "size": 118,
+        "unit": "ml"
+      }
+    },
+    "default": "extract"
+  },
+  "vinaigre": {
+    "unit": "ml",
+    "types": {
+      "red-wine": {
+        "size": 350
+      }
+    },
+    "default": "red-wine"
+  },
+
+  "eau": {
+    "unit": "ml"
+  },
+  "Yaourt": {
+    "unit": "g",
+    "size": 500,
+    "types": {
+      "plain": {},
+      "vanilla": {},
+      "coconut": {}
+    },
+    "default": "plain"
+  }
+}
